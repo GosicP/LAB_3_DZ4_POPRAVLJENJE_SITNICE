@@ -4,7 +4,7 @@ Tim::Tim(const Tim &t) {
     naziv=t.naziv;
     maks_broj_igraca=t.maks_broj_igraca;
     broj_igraca=t.broj_igraca;
-    //niz=new Igrac*[t.maks_broj_igraca];
+    niz=new Igrac*[t.maks_broj_igraca];
     for (int i=0; i<t.maks_broj_igraca; i++){
         niz[i]=t.niz[i];
     }
@@ -16,9 +16,9 @@ Tim::Tim( Tim &&t)  {
     naziv=t.naziv;
     t.niz=nullptr;
 }
-Tim::~Tim() {
+/*Tim::~Tim() {
     delete[] niz;
-}
+}*/
 
 Tim::Tim(string name, int max_players) {
     niz=new Igrac*[max_players];

@@ -35,7 +35,7 @@ public:
 
     Tim(const Tim& t);
     Tim( Tim&& t);
-    ~Tim();
+    //~Tim();
 
     void prikljuciIgraca(int i, Igrac *player){
         niz[i]=player;

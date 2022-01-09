@@ -53,6 +53,8 @@ int main() {
 
     vrednost_tima=t1->dohvVrednostTima();
 
+    double vrednost_tima2=t2->dohvVrednostTima();
+
     cout<<vrednost_tima<<endl;
 
     pt.prikljuciPrivilegovanom(0, i2);
@@ -65,14 +67,11 @@ int main() {
 
     m->odigrajMec();
 
-
-
     par_poenaa=m->dohvParPoena();
 
     cout<<par_poenaa;
 
     cout<<*m;
-
 
 
     return 0;
