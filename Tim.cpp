@@ -1,6 +1,6 @@
 #include "Tim.h"
 
-/*Tim::Tim(const Tim &t) {
+Tim::Tim(const Tim &t) {
     naziv=t.naziv;
     maks_broj_igraca=t.maks_broj_igraca;
     broj_igraca=t.broj_igraca;
@@ -18,7 +18,7 @@ Tim::Tim( Tim &&t)  {
 }
 Tim::~Tim() {
     delete[] niz;
-}*/
+}
 
 Tim::Tim(string name, int max_players) {
     niz=new Igrac*[max_players];

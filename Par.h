@@ -89,8 +89,6 @@ public:
         p.pisi(os);
         return os;
     }
-
-
 };
 
 #endif //MAIN_CPP_PAR_H
