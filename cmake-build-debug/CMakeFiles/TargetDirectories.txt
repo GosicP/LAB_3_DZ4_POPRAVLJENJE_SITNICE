@@ -1,0 +1,3 @@
+C:/Users/Pavle/CLionProjects/Vezba/VezbaLab#DZ4/cmake-build-debug/CMakeFiles/VezbaLab_DZ4.dir
+C:/Users/Pavle/CLionProjects/Vezba/VezbaLab#DZ4/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Pavle/CLionProjects/Vezba/VezbaLab#DZ4/cmake-build-debug/CMakeFiles/rebuild_cache.dir
